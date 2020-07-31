@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/data'
+let g:netrw_dirhist_9='/data/textmining'
+let g:netrw_dirhist_8='/data/databases/scripts/gathering_data'
+let g:netrw_dirhist_7='/data/databases/scripts'
+let g:netrw_dirhist_6='/data/knowledge'
+let g:netrw_dirhist_5='/data/experiments'
+let g:netrw_dirhist_4='/data'
+let g:netrw_dirhist_3='/data/dictionary'
+let g:netrw_dirhist_2='/data'
+let g:netrw_dirhist_1='/data/databases/scripts'

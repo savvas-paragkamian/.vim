@@ -2,6 +2,15 @@
 scriptencoding utf-8
 set encoding=utf-8
 
+" Pathogen package manager
+
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+" vim and latex config
+autocmd Filetype tex setl updatetime=1
+let g:livepreview_previewer = 'open -a Preview'
+
 " copy to mac clipboard
 
 set clipboard=unnamedplus
@@ -89,7 +98,3 @@ vnoremap <Space> zf
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview"
 
-" Pathogen package manager
-
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()

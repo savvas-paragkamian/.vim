@@ -89,3 +89,7 @@ vnoremap <Space> zf
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview"
 
+" Pathogen package manager
+
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()

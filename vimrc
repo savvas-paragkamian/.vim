@@ -4,7 +4,6 @@ set encoding=utf-8
 
 " Pathogen package manager
 
-call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " vim and latex config

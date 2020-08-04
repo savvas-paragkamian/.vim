@@ -3,12 +3,10 @@ scriptencoding utf-8
 set encoding=utf-8
 
 " Pathogen package manager
+execute pathogen#infect()
 
-call pathogen#helptags()
-
-" vim and latex config
-autocmd Filetype tex setl updatetime=1
-let g:livepreview_previewer = 'open -a Preview'
+" For plug-ins to load correctly.
+filetype plugin indent on
 
 " vim-latex-preview plugin
 
@@ -33,8 +31,6 @@ syntax on
 " color scheme
 colorscheme desert
 
-" For plug-ins to load correctly.
-filetype plugin indent on
 
 " Turn off modelines
 set modelines=0

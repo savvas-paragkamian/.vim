@@ -31,7 +31,9 @@ syntax on
 " color scheme
 colorscheme desert
 
-
+if &diff
+      colorscheme default
+    endif
 " Turn off modelines
 set modelines=0
 

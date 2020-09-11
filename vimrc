@@ -52,11 +52,13 @@ set pastetoggle=<F2>
 " Uncomment below to set the max textwidth. Use a value corresponding to the width of your screen.
 " set textwidth=79
 set formatoptions=tcqrn1
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set expandtab
 set noshiftround
+set shiftwidth=4 " this command changes the number of spaces inserted with tab in the current document to 4. To activate this setting the command :retab must be run
+set tabstop=4 " set the number of spaces inserted when pressing tab key to 4
+set softtabstop=4
+set expandtab " change the tab character with spaces 
+set autoindent
+set smartindent "
 
 " Display 5 lines above/below the cursor when scrolling with a mouse.
 set scrolloff=5
@@ -78,7 +80,9 @@ set matchpairs+=<:>
 
 " Display different types of white spaces.
 set list
-set listchars=tab:›\ ,trail:•,extends:#,nbsp:. 
+if &listchars ==# 'eol:$'
+  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+endif
 
 " Show line numbers
 set number

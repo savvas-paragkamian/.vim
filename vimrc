@@ -13,6 +13,11 @@ filetype plugin indent on
 autocmd Filetype tex setl updatetime=1
 let g:livepreview_previewer = 'open -a Preview'
 
+" vimtex
+" Vim uses a giant heuristic to determine plaintex vs other variations of tex.
+" g:vimtex_latexmk_options
+let g:tex_flavor = 'latex'
+let g:vimtex_view_method='general'
 
 " copy to mac clipboard
 

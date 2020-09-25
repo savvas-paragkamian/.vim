@@ -9,7 +9,6 @@ execute pathogen#infect()
 filetype plugin indent on
 
 " vim-latex-preview plugin
-
 autocmd Filetype tex setl updatetime=1
 let g:livepreview_previewer = 'open -a Preview'
 
@@ -113,15 +112,15 @@ autocmd BufWinEnter *.* silent loadview"
 
 " Copy paste system cliboard
 
-function! Osc52Yank()
-      let buffer=system('base64 -w0', @0)
-          let buffer=substitute(buffer, "\n$", "", "")
-              let buffer='\e]52;c;'.buffer.'\x07'
-                  silent exe "!echo -ne ".shellescape(buffer)." > ".shellescape("/dev/pts/30")
-                endfunction
-                command! Osc52CopyYank call Osc52Yank()
-                augroup Example
-                      autocmd!
-                          autocmd TextYankPost * if v:event.operator ==# 'y' | call Osc52Yank() | endif
-                        augroup END
-
+"function! Osc52Yank()
+"      let buffer=system('base64 -w0', @0)
+"          let buffer=substitute(buffer, "\n$", "", "")
+"              let buffer='\e]52;c;'.buffer.'\x07'
+"                  silent exe "!echo -ne ".shellescape(buffer)." > ".shellescape("/dev/pts/30")
+"                endfunction
+"                command! Osc52CopyYank call Osc52Yank()
+"                augroup Example
+"                      autocmd!
+"                          autocmd TextYankPost * if v:event.operator ==# 'y' | call Osc52Yank() | endif
+"                        augroup END
+"

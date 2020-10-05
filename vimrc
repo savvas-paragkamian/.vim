@@ -18,10 +18,9 @@ let g:livepreview_previewer = 'open -a Preview'
 let g:tex_flavor = 'latex'
 let g:vimtex_view_method='general'
 
-" copy to mac clipboard
-
-set clipboard=unnamedplus
-
+" copy to mac clipboard. The unnamed is a safer cross platform way to paste
+" text from yank or from the system clipboard. Using ^= to prepend
+set clipboard^=unnamed
 
 " Set compatibility to Vim only.
 set nocompatible

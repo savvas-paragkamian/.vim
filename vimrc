@@ -10,6 +10,11 @@ filetype plugin indent on
 "enable omnicompletion for functions and objects and spelling
 set omnifunc=syntaxcomplete#Complete
 
+<<<<<<< HEAD
+=======
+" set the color of the highlight boxes
+set highlight Pmenu ctermbg=245 gui=bold
+>>>>>>> 7766d6fdf6a4db4dab8177145bc0b838943507ba
 
 " vim-latex-preview plugin
 autocmd Filetype tex setl updatetime=1

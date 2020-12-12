@@ -20,9 +20,8 @@ let g:livepreview_previewer = 'open -a Preview'
 let g:tex_flavor = 'latex'
 let g:vimtex_view_method='general'
 
-" Nvim-R plugin, disable the shortcut of the R assign symbol with the
-" underscore
-let R_assign = 0
+" Nvim-R plugin, require 2 underscores to insert the R assign symbol
+let R_assign = 2
 
 " copy to mac clipboard. The unnamed is a safer cross platform way to paste
 " text from yank or from the system clipboard. Using ^= to prepend

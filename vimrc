@@ -10,12 +10,6 @@ filetype plugin indent on
 "enable omnicompletion for functions and objects and spelling
 set omnifunc=syntaxcomplete#Complete
 
-<<<<<<< HEAD
-=======
-" set the color of the highlight boxes
-set highlight Pmenu ctermbg=245 gui=bold
->>>>>>> 7766d6fdf6a4db4dab8177145bc0b838943507ba
-
 " vim-latex-preview plugin
 autocmd Filetype tex setl updatetime=1
 let g:livepreview_previewer = 'open -a Preview'
@@ -25,6 +19,10 @@ let g:livepreview_previewer = 'open -a Preview'
 " g:vimtex_latexmk_options
 let g:tex_flavor = 'latex'
 let g:vimtex_view_method='general'
+
+" Nvim-R plugin, disable the shortcut of the R assign symbol with the
+" underscore
+let R_assign = 0
 
 " copy to mac clipboard. The unnamed is a safer cross platform way to paste
 " text from yank or from the system clipboard. Using ^= to prepend

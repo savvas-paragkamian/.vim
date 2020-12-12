@@ -10,8 +10,6 @@ filetype plugin indent on
 "enable omnicompletion for functions and objects and spelling
 set omnifunc=syntaxcomplete#Complete
 
-" set the color of the highlight boxes
-set highlight Pmenu ctermbg=245 gui=bold
 
 " vim-latex-preview plugin
 autocmd Filetype tex setl updatetime=1
@@ -42,6 +40,11 @@ colorscheme desert
 if &diff
       colorscheme default
     endif
+
+" set the color of the highlight boxes. It has to be below the colorscheme in
+" order to work
+highlight Pmenu ctermbg=244 gui=bold
+
 " Turn off modelines
 set modelines=0
 

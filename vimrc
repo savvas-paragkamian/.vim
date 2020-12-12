@@ -7,6 +7,8 @@ execute pathogen#infect()
 
 " For plug-ins to load correctly.
 filetype plugin indent on
+"enable omnicompletion for functions and objects and spelling
+set omnifunc=syntaxcomplete#Complete
 
 " vim-latex-preview plugin
 autocmd Filetype tex setl updatetime=1

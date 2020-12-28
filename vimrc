@@ -5,8 +5,12 @@ set encoding=utf-8
 " Pathogen package manager
 execute pathogen#infect()
 
+" to load the netrw for browsing files inside vim. This is not a plugin.
+set nocp
+
 " For plug-ins to load correctly.
 filetype plugin indent on
+
 "enable omnicompletion for functions and objects and spelling
 set omnifunc=syntaxcomplete#Complete
 

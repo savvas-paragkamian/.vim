@@ -106,36 +106,51 @@ xmap <buffer> <nowait> <silent> tsf <Plug>(vimtex-cmd-toggle-frac)
 nmap <buffer> <nowait> <silent> tsf <Plug>(vimtex-cmd-toggle-frac)
 nmap <buffer> <nowait> <silent> tsc <Plug>(vimtex-cmd-toggle-star)
 nmap <buffer> <nowait> <silent> tse <Plug>(vimtex-env-toggle-star)
-nnoremap <buffer> <SNR>73_(v) v
-nnoremap <buffer> <SNR>73_(V) V
-xnoremap <buffer> <silent> <SNR>73_(vimtex-%) :call vimtex#motion#find_matching_pair(1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-]]) :call vimtex#motion#section(0,0,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-][) :call vimtex#motion#section(1,0,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-[]) :call vimtex#motion#section(1,1,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-[[) :call vimtex#motion#section(0,1,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-]m) :call vimtex#motion#environment(1,0,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-]M) :call vimtex#motion#environment(0,0,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-[m) :call vimtex#motion#environment(1,1,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-[M) :call vimtex#motion#environment(0,1,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-]/) :call vimtex#motion#comment(1,0,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-]*) :call vimtex#motion#comment(0,0,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-[/) :call vimtex#motion#comment(1,1,1)
-xnoremap <buffer> <silent> <SNR>73_(vimtex-[*) :call vimtex#motion#comment(0,1,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-[*) :call vimtex#motion#comment(0,1,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-[/) :call vimtex#motion#comment(1,1,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-]*) :call vimtex#motion#comment(0,0,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-]/) :call vimtex#motion#comment(1,0,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-[M) :call vimtex#motion#environment(0,1,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-[m) :call vimtex#motion#environment(1,1,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-]M) :call vimtex#motion#environment(0,0,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-]m) :call vimtex#motion#environment(1,0,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-[[) :call vimtex#motion#section(0,1,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-[]) :call vimtex#motion#section(1,1,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-][) :call vimtex#motion#section(1,0,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-]]) :call vimtex#motion#section(0,0,1)
-xnoremap <buffer> <silent> <SNR>76_(vimtex-%) :call vimtex#motion#find_matching_pair(1)
-nnoremap <buffer> <SNR>76_(V) V
+nnoremap <buffer> <SNR>74_(v) v
+nnoremap <buffer> <SNR>74_(V) V
+xnoremap <buffer> <silent> <SNR>74_(vimtex-%) :call vimtex#motion#find_matching_pair(1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-]]) :call vimtex#motion#section(0,0,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-][) :call vimtex#motion#section(1,0,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-[]) :call vimtex#motion#section(1,1,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-[[) :call vimtex#motion#section(0,1,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-]m) :call vimtex#motion#environment(1,0,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-]M) :call vimtex#motion#environment(0,0,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-[m) :call vimtex#motion#environment(1,1,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-[M) :call vimtex#motion#environment(0,1,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-]/) :call vimtex#motion#comment(1,0,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-]*) :call vimtex#motion#comment(0,0,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-[/) :call vimtex#motion#comment(1,1,1)
+xnoremap <buffer> <silent> <SNR>74_(vimtex-[*) :call vimtex#motion#comment(0,1,1)
 nnoremap <buffer> <SNR>76_(v) v
+nnoremap <buffer> <SNR>76_(V) V
+xnoremap <buffer> <silent> <SNR>76_(vimtex-%) :call vimtex#motion#find_matching_pair(1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-]]) :call vimtex#motion#section(0,0,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-][) :call vimtex#motion#section(1,0,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-[]) :call vimtex#motion#section(1,1,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-[[) :call vimtex#motion#section(0,1,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-]m) :call vimtex#motion#environment(1,0,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-]M) :call vimtex#motion#environment(0,0,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-[m) :call vimtex#motion#environment(1,1,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-[M) :call vimtex#motion#environment(0,1,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-]/) :call vimtex#motion#comment(1,0,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-]*) :call vimtex#motion#comment(0,0,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-[/) :call vimtex#motion#comment(1,1,1)
+xnoremap <buffer> <silent> <SNR>76_(vimtex-[*) :call vimtex#motion#comment(0,1,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-[*) :call vimtex#motion#comment(0,1,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-[/) :call vimtex#motion#comment(1,1,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-]*) :call vimtex#motion#comment(0,0,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-]/) :call vimtex#motion#comment(1,0,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-[M) :call vimtex#motion#environment(0,1,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-[m) :call vimtex#motion#environment(1,1,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-]M) :call vimtex#motion#environment(0,0,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-]m) :call vimtex#motion#environment(1,0,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-[[) :call vimtex#motion#section(0,1,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-[]) :call vimtex#motion#section(1,1,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-][) :call vimtex#motion#section(1,0,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-]]) :call vimtex#motion#section(0,0,1)
+xnoremap <buffer> <silent> <SNR>73_(vimtex-%) :call vimtex#motion#find_matching_pair(1)
+nnoremap <buffer> <SNR>73_(V) V
+nnoremap <buffer> <SNR>73_(v) v
 xmap <buffer> <nowait> <silent> <F7> <Plug>(vimtex-cmd-create)
 nmap <buffer> <nowait> <silent> <F7> <Plug>(vimtex-cmd-create)
 nnoremap <buffer> <Plug>(vimtex-view) :call b:vimtex.viewer.view('')
@@ -168,34 +183,34 @@ xnoremap <buffer> <silent> <Plug>(vimtex-ic) :call vimtex#text_obj#commands(1,
 nnoremap <buffer> <Plug>(vimtex-reload-state) :VimtexReloadState
 nnoremap <buffer> <Plug>(vimtex-toggle-main) :VimtexToggleMain
 nnoremap <buffer> <Plug>(vimtex-errors) :call vimtex#qf#toggle()
-xnoremap <buffer> <silent> <SNR>74_(vimtex-[*) :call vimtex#motion#comment(0,1,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-[/) :call vimtex#motion#comment(1,1,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-]*) :call vimtex#motion#comment(0,0,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-]/) :call vimtex#motion#comment(1,0,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-[*) :call vimtex#motion#comment(0,1,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-[/) :call vimtex#motion#comment(1,1,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-]*) :call vimtex#motion#comment(0,0,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-]/) :call vimtex#motion#comment(1,0,1)
 nnoremap <buffer> <silent> <Plug>(vimtex-[*) :call vimtex#motion#comment(0,1,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-[/) :call vimtex#motion#comment(1,1,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-]*) :call vimtex#motion#comment(0,0,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-]/) :call vimtex#motion#comment(1,0,0)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-[M) :call vimtex#motion#environment(0,1,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-[m) :call vimtex#motion#environment(1,1,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-]M) :call vimtex#motion#environment(0,0,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-]m) :call vimtex#motion#environment(1,0,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-[M) :call vimtex#motion#environment(0,1,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-[m) :call vimtex#motion#environment(1,1,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-]M) :call vimtex#motion#environment(0,0,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-]m) :call vimtex#motion#environment(1,0,1)
 nnoremap <buffer> <silent> <Plug>(vimtex-[M) :call vimtex#motion#environment(0,1,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-[m) :call vimtex#motion#environment(1,1,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-]M) :call vimtex#motion#environment(0,0,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-]m) :call vimtex#motion#environment(1,0,0)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-[[) :call vimtex#motion#section(0,1,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-[]) :call vimtex#motion#section(1,1,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-][) :call vimtex#motion#section(1,0,1)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-]]) :call vimtex#motion#section(0,0,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-[[) :call vimtex#motion#section(0,1,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-[]) :call vimtex#motion#section(1,1,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-][) :call vimtex#motion#section(1,0,1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-]]) :call vimtex#motion#section(0,0,1)
 nnoremap <buffer> <silent> <Plug>(vimtex-[[) :call vimtex#motion#section(0,1,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-[]) :call vimtex#motion#section(1,1,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-][) :call vimtex#motion#section(1,0,0)
 nnoremap <buffer> <silent> <Plug>(vimtex-]]) :call vimtex#motion#section(0,0,0)
-xnoremap <buffer> <silent> <SNR>74_(vimtex-%) :call vimtex#motion#find_matching_pair(1)
+xnoremap <buffer> <silent> <SNR>75_(vimtex-%) :call vimtex#motion#find_matching_pair(1)
 nnoremap <buffer> <silent> <Plug>(vimtex-%) :call vimtex#motion#find_matching_pair()
-nnoremap <buffer> <SNR>74_(V) V
-nnoremap <buffer> <SNR>74_(v) v
+nnoremap <buffer> <SNR>75_(V) V
+nnoremap <buffer> <SNR>75_(v) v
 nnoremap <buffer> <Plug>(vimtex-reload) :VimtexReload
 nnoremap <buffer> <Plug>(vimtex-log) :VimtexLog
 nnoremap <buffer> <Plug>(vimtex-info-full) :VimtexInfo!
@@ -404,13 +419,12 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 48 - ((31 * winheight(0) + 23) / 46)
+let s:l = 1 - ((0 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-48
-normal! 014|
+1
+normal! 0
 let &so = s:so_save | let &siso = s:siso_save
-nohlsearch
 doautoall SessionLoadPost
 " vim: set ft=vim :

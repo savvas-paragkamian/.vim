@@ -7,6 +7,7 @@ execute pathogen#infect()
 
 " to load the netrw for browsing files inside vim. This is not a plugin.
 set nocp
+let g:netrw_liststyle = 3 " make the default viewing style the tree view. 
 
 " For plug-ins to load correctly.
 filetype plugin indent on

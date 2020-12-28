@@ -28,6 +28,10 @@ let g:vimtex_view_method='general'
 " Nvim-R plugin, require 2 underscores to insert the R assign symbol
 let R_assign = 2
 
+" csv.vim plugin set delimiters
+let g:csv_delimiter = ";"
+let g:csv_delimiter = "\t"
+
 " copy to mac clipboard. The unnamed is a safer cross platform way to paste
 " text from yank or from the system clipboard. Using ^= to prepend
 set clipboard^=unnamed

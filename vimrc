@@ -150,6 +150,10 @@ set viminfo='100,<9999,s100
 autocmd BufWinLeave *.* mkview
 autocmd BufWinEnter *.* silent loadview"
 
+" ## Undo make persistent ##
+
+set undodir=~/.vim/undodir
+set undofile " Maintain undo history between sessions
 
 " Copy paste system cliboard
 

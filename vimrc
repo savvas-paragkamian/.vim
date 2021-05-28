@@ -37,6 +37,10 @@ set showcmd
 " Show line numbers
 set number
 
+" color characters in lines with more that 80 characters
+highlight ColorColumn ctermbg=magenta guibg=Magenta
+call matchadd('ColorColumn', '\%81v', 100)
+
 " Set status line display
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime('%c')}
 

@@ -159,6 +159,10 @@ autocmd BufWinEnter *.* silent loadview"
 set undodir=~/.vim/undodir
 set undofile " Maintain undo history between sessions
 
+" ## load text files using pandoc
+
+autocmd BufReadPost *.doc,*.docx,*.rtf,*.odp,*.odt silent %!pandoc "%" -tplain -o /dev/stdout
+
 " Copy paste system cliboard
 
 "function! Osc52Yank()

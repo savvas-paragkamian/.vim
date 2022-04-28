@@ -130,6 +130,7 @@ set softtabstop=4
 set expandtab " change the tab character with spaces 
 set autoindent
 set smartindent "
+set foldmethod=syntax
 
 " Fixes common backspace problems
 set backspace=indent,eol,start

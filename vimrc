@@ -124,12 +124,12 @@ set pastetoggle=<F2>
 " set textwidth=79
 set formatoptions=tcqrn1
 set noshiftround
+set expandtab " change the tab character with spaces 
 set shiftwidth=4 " this command changes the number of spaces inserted with tab in the current document to 4. To activate this setting the command :retab must be run
 set tabstop=4 " set the number of spaces inserted when pressing tab key to 4
 set softtabstop=4
-set expandtab " change the tab character with spaces 
 set autoindent
-set smartindent "
+set smartindent 
 set foldmethod=syntax
 
 " Fixes common backspace problems

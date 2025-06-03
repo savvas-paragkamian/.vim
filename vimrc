@@ -51,7 +51,7 @@ nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
 vnoremap <Space> zf
 
 " new command to open new tab in the script directory
-command! TabExploreHere tabnew %:p:h | Ex
+command! tabhere tabnew %:p:h | Ex
 
 " ## PLUGINS customization ##
 

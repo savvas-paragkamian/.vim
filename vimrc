@@ -50,6 +50,9 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFE
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR>
 vnoremap <Space> zf
 
+" new command to open new tab in the script directory
+command! TabExploreHere tabnew %:p:h | Ex
+
 " ## PLUGINS customization ##
 
 " Pathogen package manager

@@ -55,8 +55,7 @@ command! Tabhere tabnew %:p:h | Ex
 
 " ## PLUGINS customization ##
 
-" Pathogen package manager
-execute pathogen#infect()
+" Package manager
 
 " to load the netrw for browsing files inside vim. This is not a plugin.
 set nocp
@@ -78,12 +77,6 @@ let g:vimtex_view_method='general'
 " slime for REPL in vim
 let g:slime_target = "tmux"
 
-"" Nvim-R plugin, require 2 underscores to insert the R assign symbol
-"let R_assign = 2
-"
-"" csv.vim plugin set delimiters
-"let g:csv_delimiter = ";"
-"let g:csv_delimiter = "\t"
 
 " Helps force plug-ins to load correctly when it is turned back on below.
 filetype off

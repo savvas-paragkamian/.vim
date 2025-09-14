@@ -1,9 +1,9 @@
 [submodule "bundle/vim-latex-live-preview"]
 	path = bundle/vim-latex-live-preview
 	url = https://github.com/xuhdev/vim-latex-live-preview.git
-[submodule "bundle/vimtex"]
-	path = bundle/vimtex
-	url = https://github.com/lervag/vimtex.git
-[submodule "bundle/vim-slime"]
-	path = bundle/vim-slime
+[submodule "pack/plugins/start/vim-slime"]
+	path = pack/plugins/start/vim-slime
 	url = https://github.com/jpalardy/vim-slime.git
+[submodule "pack/plugins/start/vimtex"]
+	path = pack/plugins/start/vimtex
+	url = https://github.com/lervag/vimtex.git

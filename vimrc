@@ -84,7 +84,8 @@ filetype off
 " ## Colors, text highlighting ##
 
 " Turn on syntax highlighting.
-syntax on
+syntax enable
+"syntax on
 
 " color scheme
 colorscheme slate

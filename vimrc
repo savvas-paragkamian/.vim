@@ -75,12 +75,15 @@ let g:livepreview_previewer = 'open -a Preview'
 let g:tex_flavor = 'latex'
 let g:vimtex_view_method='general'
 
-" Nvim-R plugin, require 2 underscores to insert the R assign symbol
-let R_assign = 2
+" slime for REPL in vim
+let g:slime_target = "tmux"
 
-" csv.vim plugin set delimiters
-let g:csv_delimiter = ";"
-let g:csv_delimiter = "\t"
+"" Nvim-R plugin, require 2 underscores to insert the R assign symbol
+"let R_assign = 2
+"
+"" csv.vim plugin set delimiters
+"let g:csv_delimiter = ";"
+"let g:csv_delimiter = "\t"
 
 " Helps force plug-ins to load correctly when it is turned back on below.
 filetype off
@@ -91,7 +94,7 @@ filetype off
 syntax on
 
 " color scheme
-colorscheme desert
+colorscheme slate
 
 if &diff
       colorscheme default
